@@ -28,7 +28,7 @@
 .clock-numbers {
 	color: #66FF33;
 	font-size: 1000%;
-	margin-left: 35px;
+	margin-left: 85px;
 }
 
 .left-AM {
@@ -37,12 +37,18 @@
     top: 270px;
 }
 
+.left-PM {
+	position: absolute;
+    margin-left: 61px;
+    top: 296px;
+}
+
 .indicator {
 	background-color: #66FF33;
 	height: 10px;
 	width: 10px;
 	position: absolute;
-    top: 275px;
+    top: 300px;
     margin-left: 5px;
     border-radius: 5px;
 }
